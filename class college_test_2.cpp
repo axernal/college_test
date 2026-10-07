@@ -35,5 +35,9 @@ main()
     int missing2 = obj2.missing_number(nums2);
     cout << "The missing number is: " << missing2 << endl;
     
+    college_test_2 obj3;
+    vector<int> nums3 = {0, 1,3, 4, 5};
+    int missing3 = obj3.missing_number(nums3);
+    cout << "The missing number is: " << missing3 << endl;
     return 0;
 }
