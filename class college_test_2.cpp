@@ -1,3 +1,6 @@
+#include <iostream>
+#include <vector>
+
 class college_test_2
 {
     int missing_number(vector<int> &nums) 
@@ -19,3 +22,12 @@ class college_test_2
         return Xor1 ^ Xor2;
     }
 };
+
+main() 
+{
+    college_test_2 obj;
+    vector<int> nums = {3, 0, 1};
+    int missing = obj.missing_number(nums);
+    cout << "The missing number is: " << missing << endl;
+    return 0;
+}
